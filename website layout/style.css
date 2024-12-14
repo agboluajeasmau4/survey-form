@@ -1,0 +1,54 @@
+.header{
+    width: 100%;
+   display: block;
+border-style: solid;
+text-align: center;
+font-size: 30px;
+font-weight: 600;
+}
+.sidebar{
+  
+    display: inline;
+ border-style: solid;
+ text-align: center;
+ font-size: 30px;
+ font-weight: 600;
+ float: left;
+ padding-bottom: 200px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.main-content{
+    display: block;
+    border-style: solid;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    float: right;
+   width: 80%;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   padding-left: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   
+}
+.footer{
+    display: block;
+    border-style: solid;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+   clear: both;
+   width: 100%;
+
+}
+.dd{ position: relative;
+display: inline-block;  }
+.dd-content{
+    position:relative;
+    display: none;
+}
+.dd:hover >.dd-content{
+    display: block;
+}
